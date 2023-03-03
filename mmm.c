@@ -147,6 +147,7 @@ double mmm_verify() {
 	return error;
 }
 
+//prints a given matrix
 void printMatrix(int **matrix){
 	for(int i = 0; i < size; i++){
 		for(int j = 0; j < size; j++){
@@ -156,6 +157,7 @@ void printMatrix(int **matrix){
 	}
 }
 
+//copies output matrix to the tempout matrix
 void copyOutput(){
 	for(int i = 0; i < size; i++){
 		for(int j = 0; j < size; j++){
